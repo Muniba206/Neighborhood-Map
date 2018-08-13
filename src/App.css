@@ -28,7 +28,7 @@
 }
 
 .App-header {
-    background-color: #222222;
+    background-color: #a5a5a8;
     height: 20px;
     padding: 15px;
     color: white;
@@ -53,7 +53,7 @@
 .drawerIsOff {
     width: 0;
     min-height: 100%;
-    background: #050505;
+    background: #a5a5a8;
     -webkit-transition: width 1s;
     transition: width 1s;
 }
@@ -61,7 +61,6 @@
 .MapDrawerIsOn {
     width: calc(100% - 260px);
     min-height: 100%;
-
     -webkit-transition: width 1s;
     transition: width 1s;
 }
@@ -69,7 +68,6 @@
 .MapDrawerIsOff {
     width: 100%;
     min-height: 100%;
-
     -webkit-transition: width 1s;
     transition: width 1s;
 }
@@ -80,6 +78,7 @@
 
 .drawerWrapper {
     padding: 20px 10px 15px 10px;
+	background-color: #a5a5a8;
 }
 
 .inputWrapper {
@@ -115,8 +114,8 @@
 .location {
     margin: 0;
     padding: 0;
-    background-color: #050505;
+    background-color: #a5a5a8;
     border: none;
-    color: aliceblue;
+    color: #fff;
     text-align: left;
 }
